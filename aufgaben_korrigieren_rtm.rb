@@ -8,6 +8,6 @@ klausur_hashtag = gets.chomp
 puts "Wieviele Aufgaben?"
 anzahl = gets.to_i
 
-0.upto(anzahl) do |i|
-  puts "07_#{abc[i]}. Aufgabe #{i+1} korrigieren ##{klausur_hashtag} #high #challenge"
+1.upto(anzahl) do |i|
+  puts "07_#{abc[i-1]}. Aufgabe #{i} korrigieren ##{klausur_hashtag} #high #challenge"
 end
