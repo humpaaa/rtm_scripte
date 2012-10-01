@@ -1,7 +1,7 @@
 #!/usr/bin/ruby
 # coding: utf-8
 
-puts "Klausurname?"
+puts "Klausurname? (ohne -)"
 klausurname = gets.chomp
 puts "Wann wird die Klausur geschrieben?"
 klausur_datum = gets.chomp

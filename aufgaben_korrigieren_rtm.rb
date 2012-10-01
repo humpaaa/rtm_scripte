@@ -3,7 +3,7 @@
 
 abc = ('a'..'z').to_a
 
-puts "Hashtag für Klausur?"
+puts "Hashtag für Klausur? (ohne -)"
 klausur_hashtag = gets.chomp
 puts "Wieviele Aufgaben?"
 anzahl = gets.to_i
