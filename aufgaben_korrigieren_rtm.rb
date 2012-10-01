@@ -10,7 +10,7 @@ anzahl = gets.to_i
 
 tasks = []
 1.upto(anzahl) do |i|
-  tasks << "07_#{abc[i-1]}. Aufgabe #{i} korrigieren ##{klausur_hashtag} #high #challenge"
+  tasks << "07_#{abc[i-1]}. Aufgabe #{i} korrigieren #-#{klausur_hashtag} #high #challenge"
 end
 
 puts tasks
