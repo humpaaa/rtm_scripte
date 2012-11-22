@@ -19,6 +19,6 @@ puts "Sollen die Tasks zu RTM übermittelt werden? (Y/N)"
 
 if gets.chomp.downcase == "y"
   tasks.each do |task|
-    system "ru \"#{task}\""
+    system "/usr/bin/ru \"#{task}\""
   end
 end
